@@ -57,6 +57,10 @@ public final class PrefixParser2 {
         }
         System.out.println(ops);
     }
+    
+    public String getOuts(){
+        return ((String) tokens.get(0));
+    }
 
     void operate(String b, String a, String op) {
         switch (op) {
